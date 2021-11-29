@@ -1,16 +1,14 @@
 import Button from "./Button";
+import { FaPlusCircle, FaMinusCircle } from "react-icons/fa";
 
-
-const Header = (props) => {
+const Header = ({showForm, showValue}) => {
     const onClick = ()=>{
         console.log('Clicked')
     }
     return (
         <header  className="header">
-            <h1>Test Application {props.title}</h1>
-            <Button color="green" text="Click me" onClick={onClick}/>
-            <Button color="red" text="Click me" onClick={onClick}/>
-            <Button color="blue" text="Click me" onClick={onClick}/>
+            <h1>Test Application </h1>
+            <Button color={showValue ? 'red' : 'green'} text={showValue ? <FaMinusCircle/> : <FaPlusCircle/> } onClick={()=> showForm()}/>
         </header>
     )
 }

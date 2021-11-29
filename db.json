@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task 1",
+      "description": "This is task description",
+      "day": "2021-11-30",
+      "reminder": true
+    },
+    {
+      "id": 4,
+      "title": "Task 4",
+      "description": " This is task description",
+      "day": "2021-12-05",
+      "reminder": false
+    },
+    {
+      "title": "hello",
+      "description": "Task on server added from application",
+      "day": "2021-12-09",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "title": "oh hello",
+      "description": "asdfkasdlfka;'dfk",
+      "day": "2020-11-30",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "title": "asdf",
+      "description": "rrrrrrrrrrr",
+      "day": "2021-12-10",
+      "reminder": false,
+      "id": 7
+    }
+  ]
+}
